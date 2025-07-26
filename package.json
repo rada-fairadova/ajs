@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com/"
+    },
+    "scripts": {
+      "build": "webpack --mode production"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rada-fairadova/ajs.git"
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/rada-fairadova/ajs/issues"
   },
-  "homepage": "https://github.com/rada-fairadova/ajs#readme"
+  "homepage": "https://github.com/rada-fairadova/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
 }
