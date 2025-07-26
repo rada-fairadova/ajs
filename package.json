@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-    "publishConfig": {
-      "registry":"https://npm.pkg.github.com/"
-    },
-    "scripts": {
-      "build": "webpack --mode production"
-    },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rada-fairadova/ajs.git"
